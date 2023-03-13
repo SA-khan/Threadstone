@@ -1,11 +1,17 @@
 import React from "react";
 
 const header = (props) => {
-  return (
-    <div>
-      <h2>{props.name}</h2>
-    </div>
-  );
-};
+  const style = {
+    'max-width': 1500
+  };
+  return <React.Fragment>
+    <header className="w3-display-container w3-content w3-wide" id="home">
+      <img className="w3-image" src="/images/architect.jpg" alt="Architecture" width="1500" height="800" />
+      <div className="w3-display-middle w3-margin-top w3-center">
+        <h1 className="w3-xxlarge w3-text-white"><span className="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span className="w3-hide-small w3-text-light-grey">Online</span></h1>
+      </div>
+    </header>
+  </React.Fragment>;
+}
 
 export default header;

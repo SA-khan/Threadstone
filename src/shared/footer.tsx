@@ -3,8 +3,8 @@ import React from "react";
 const footer = () => {
   return (
     <div>
-      <footer className="container-fluid text-center">
-        <p>Threadstone footer goes here</p>
+      <footer className="w3-center w3-black w3-padding-16">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" className="w3-hover-text-green">Astech</a></p>
       </footer>
     </div>
   );
