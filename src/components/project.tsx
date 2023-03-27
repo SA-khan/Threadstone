@@ -3,6 +3,7 @@ import React from 'react';
 const project = () => {
     return <React.Fragment>
         <div className="w3-container w3-padding-32" id="projects">
+            <br />
             <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
         </div>
 

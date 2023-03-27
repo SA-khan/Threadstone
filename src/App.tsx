@@ -9,6 +9,7 @@ import article from "./components/article";
 import Project from "./components/project"
 import Courousal from "./components/courausal";
 import Footer from "./shared/footer";
+import Index from './components/index'
 import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/" element={<Header />} />
+        <Route path="/" element={<Index />} />
       </Routes>
       <Footer />
     </Router>
