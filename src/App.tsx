@@ -9,7 +9,7 @@ import article from "./components/article";
 import Project from "./components/project"
 import Courousal from "./components/courausal";
 import Footer from "./shared/footer";
-import Index from './components/index'
+import Index from './components/Index'
 import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
 
 const App = () => {
